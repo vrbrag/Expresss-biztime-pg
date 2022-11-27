@@ -30,8 +30,8 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(3000, function () {
-  console.log('Server 3000 running')
-})
+// app.listen(3000, function () {
+//   console.log('Server 3000 running')
+// })
 
 module.exports = app;
